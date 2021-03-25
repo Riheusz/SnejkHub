@@ -250,7 +250,7 @@ Credits.BorderSizePixel = 3
 Credits.Position = UDim2.new(0.0442074947, 0, 0.910832524, 0)
 Credits.Size = UDim2.new(0, 453, 0, 50)
 Credits.Font = Enum.Font.SpecialElite
-Credits.Text = "CREDITS: Rihi#3276  Instagram: laureczk_3a"
+Credits.Text = "CREDITS: Rihi#3276  Instagram: greenowka"
 Credits.TextColor3 = Color3.fromRGB(186, 186, 186)
 Credits.TextSize = 14.000
 
@@ -276,7 +276,7 @@ CreditsTextTittle.BorderSizePixel = 5
 CreditsTextTittle.Position = UDim2.new(0.0196884423, 0, -2.70000005, 0)
 CreditsTextTittle.Size = UDim2.new(0, 444, 0, 50)
 CreditsTextTittle.Font = Enum.Font.SourceSans
-CreditsTextTittle.Text = "Kc Laura<3"
+CreditsTextTittle.Text = "Zrobione dla Laury przez Pawełka<3"
 CreditsTextTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
 CreditsTextTittle.TextSize = 25.000
 
