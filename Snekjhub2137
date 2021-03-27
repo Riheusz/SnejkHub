@@ -1,1 +1,550 @@
+-- Hej
+local SnakeHubNoKey = Instance.new("ScreenGui")
+local WaterMark = Instance.new("Frame")
+local WaterMarkText = Instance.new("TextLabel")
+local MainHub = Instance.new("Frame")
+local MainScript = Instance.new("Frame")
+local ScrollFrame = Instance.new("ScrollingFrame")
+local OwlHubLoad = Instance.new("TextButton")
+local OwlHubText = Instance.new("TextLabel")
+local CmdXLoad = Instance.new("TextButton")
+local CMDXTITTLE = Instance.new("TextLabel")
+local R15Load = Instance.new("TextButton")
+local R15GuiTittle = Instance.new("TextLabel")
+local VynixusGuiLoad = Instance.new("TextButton")
+local VynixusTittle = Instance.new("TextLabel")
+local DaHoodGuiLoad = Instance.new("TextButton")
+local ZordionTittle = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local MoreScriptsSoonTittle = Instance.new("TextLabel")
+local CreditsTextTittle = Instance.new("TextLabel")
+local infiniteyieldLoad = Instance.new("TextButton")
+local iyTittle = Instance.new("TextLabel")
+local PushToolLoad = Instance.new("TextButton")
+local PushToolTittle = Instance.new("TextLabel")
+local AllSkinsLoad = Instance.new("TextButton")
+local AllSkinsTittle = Instance.new("TextLabel")
+local FeCarLoad = Instance.new("TextButton")
+local FeCarTittle = Instance.new("TextLabel")
+local UIGradientMainScript = Instance.new("UIGradient")
+local UICornerMainScript = Instance.new("UICorner")
+local MainHubLogo = Instance.new("ImageLabel")
+local MainHubTittle = Instance.new("TextLabel")
+local RainbowTittle = Instance.new("TextLabel")
+local UIGradientRainBow = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local MainHubGradient = Instance.new("UIGradient")
+local UICornerMainHub = Instance.new("UICorner")
+local CloseButton = Instance.new("TextButton")
+local UIGradientCloseButton = Instance.new("UIGradient")
+local UiCornerClose = Instance.new("UICorner")
+local CloseButtonText = Instance.new("TextLabel")
+local OpenButton = Instance.new("TextButton")
+local UIGradientOpenButton = Instance.new("UIGradient")
+local UICornerOpenButton = Instance.new("UICorner")
+local OpenButtonText = Instance.new("TextLabel")
 
+--Properties:
+
+SnakeHubNoKey.Name = "Snake HubNoKey"
+SnakeHubNoKey.Parent = game.CoreGui
+SnakeHubNoKey.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+WaterMark.Name = "WaterMark"
+WaterMark.Parent = SnakeHubNoKey
+WaterMark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WaterMark.BackgroundTransparency = 1.000
+WaterMark.Position = UDim2.new(0.191943139, 0, 0.969359398, 0)
+WaterMark.Size = UDim2.new(0, 100, 0, 21)
+
+WaterMarkText.Name = "WaterMarkText"
+WaterMarkText.Parent = WaterMark
+WaterMarkText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WaterMarkText.BackgroundTransparency = 1.000
+WaterMarkText.Position = UDim2.new(0, 0, -2.38418579e-07, 0)
+WaterMarkText.Size = UDim2.new(0, 100, 0, 21)
+WaterMarkText.Font = Enum.Font.SpecialElite
+WaterMarkText.Text = "Snake Hub By Rihi#3276"
+WaterMarkText.TextColor3 = Color3.fromRGB(186, 186, 186)
+WaterMarkText.TextSize = 14.000
+
+MainHub.Name = "MainHub"
+MainHub.Parent = SnakeHubNoKey
+MainHub.BackgroundColor3 = Color3.fromRGB(0, 99, 96)
+MainHub.BorderSizePixel = 0
+MainHub.Position = UDim2.new(0.0157977883, 0, 0.0292479116, 0)
+MainHub.Size = UDim2.new(0, 493, 0, 61)
+
+MainScript.Name = "MainScript"
+MainScript.Parent = MainHub
+MainScript.BackgroundColor3 = Color3.fromRGB(0, 153, 148)
+MainScript.BorderSizePixel = 0
+MainScript.Position = UDim2.new(0, 0, 1, 0)
+MainScript.Size = UDim2.new(0, 499, 0, 450)
+
+ScrollFrame.Name = "ScrollFrame"
+ScrollFrame.Parent = MainScript
+ScrollFrame.Active = true
+ScrollFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollFrame.BackgroundTransparency = 1.000
+ScrollFrame.BorderColor3 = Color3.fromRGB(0, 43, 186)
+ScrollFrame.BorderSizePixel = 0
+ScrollFrame.Size = UDim2.new(0, 499, 0, 450)
+
+OwlHubLoad.Name = "OwlHubLoad"
+OwlHubLoad.Parent = ScrollFrame
+OwlHubLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OwlHubLoad.BackgroundTransparency = 0.800
+OwlHubLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+OwlHubLoad.BorderSizePixel = 3
+OwlHubLoad.Position = UDim2.new(0.0498812348, 0, 0.00173913129, 0)
+OwlHubLoad.Size = UDim2.new(0, 200, 0, 50)
+OwlHubLoad.Font = Enum.Font.SourceSans
+OwlHubLoad.Text = "Owl Hub"
+OwlHubLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+OwlHubLoad.TextSize = 29.000
+OwlHubLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))()
+end)
+
+OwlHubText.Name = "OwlHubText"
+OwlHubText.Parent = OwlHubLoad
+OwlHubText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubText.BackgroundTransparency = 1.000
+OwlHubText.BorderSizePixel = 0
+OwlHubText.Position = UDim2.new(1.09500003, 0, -0.0199999996, 0)
+OwlHubText.Size = UDim2.new(0, 165, 0, 50)
+OwlHubText.Font = Enum.Font.SourceSans
+OwlHubText.Text = "Aim Bot, wallhack i inne"
+OwlHubText.TextColor3 = Color3.fromRGB(186, 186, 186)
+OwlHubText.TextScaled = true
+OwlHubText.TextSize = 14.000
+OwlHubText.TextWrapped = true
+
+CmdXLoad.Name = "CmdXLoad"
+CmdXLoad.Parent = ScrollFrame
+CmdXLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CmdXLoad.BackgroundTransparency = 0.800
+CmdXLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+CmdXLoad.BorderSizePixel = 3
+CmdXLoad.Position = UDim2.new(0.0498812348, 0, 0.0807236731, 0)
+CmdXLoad.Size = UDim2.new(0, 200, 0, 50)
+CmdXLoad.Font = Enum.Font.SourceSans
+CmdXLoad.Text = "CMD X"
+CmdXLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+CmdXLoad.TextSize = 29.000
+CmdXLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+CMDXTITTLE.Name = "CMD X TITTLE"
+CMDXTITTLE.Parent = CmdXLoad
+CMDXTITTLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDXTITTLE.BackgroundTransparency = 1.000
+CMDXTITTLE.BorderSizePixel = 0
+CMDXTITTLE.Position = UDim2.new(1.09500003, 0, 0, 0)
+CMDXTITTLE.Size = UDim2.new(0, 165, 0, 50)
+CMDXTITTLE.Font = Enum.Font.SourceSans
+CMDXTITTLE.Text = "Admin w grach (napisz .cmds)"
+CMDXTITTLE.TextColor3 = Color3.fromRGB(186, 186, 186)
+CMDXTITTLE.TextScaled = true
+CMDXTITTLE.TextSize = 14.000
+CMDXTITTLE.TextWrapped = true
+
+R15Load.Name = "R15Load"
+R15Load.Parent = ScrollFrame
+R15Load.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+R15Load.BackgroundTransparency = 0.800
+R15Load.BorderColor3 = Color3.fromRGB(0, 43, 186)
+R15Load.BorderSizePixel = 3
+R15Load.Position = UDim2.new(0.0498812348, 0, 0.158101588, 0)
+R15Load.Size = UDim2.new(0, 200, 0, 50)
+R15Load.Font = Enum.Font.SourceSans
+R15Load.Text = "R15 GUI"
+R15Load.TextColor3 = Color3.fromRGB(186, 186, 186)
+R15Load.TextSize = 29.000
+R15Load.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Riheusz/R15gui/main/R15Gui"))()
+end)
+
+R15GuiTittle.Name = "R15GuiTittle"
+R15GuiTittle.Parent = R15Load
+R15GuiTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R15GuiTittle.BackgroundTransparency = 1.000
+R15GuiTittle.BorderSizePixel = 0
+R15GuiTittle.Position = UDim2.new(1.09500003, 0, 0, 0)
+R15GuiTittle.Size = UDim2.new(0, 165, 0, 50)
+R15GuiTittle.Font = Enum.Font.SourceSans
+R15GuiTittle.Text = "Animacje ze sklepu itp."
+R15GuiTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+R15GuiTittle.TextScaled = true
+R15GuiTittle.TextSize = 14.000
+R15GuiTittle.TextWrapped = true
+
+VynixusGuiLoad.Name = "VynixusGuiLoad"
+VynixusGuiLoad.Parent = ScrollFrame
+VynixusGuiLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+VynixusGuiLoad.BackgroundTransparency = 0.800
+VynixusGuiLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+VynixusGuiLoad.BorderSizePixel = 3
+VynixusGuiLoad.Position = UDim2.new(0.0498812348, 0, 0.245919541, 0)
+VynixusGuiLoad.Size = UDim2.new(0, 200, 0, 50)
+VynixusGuiLoad.Font = Enum.Font.SourceSans
+VynixusGuiLoad.Text = "Vynixus Ragdoll Gui"
+VynixusGuiLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+VynixusGuiLoad.TextSize = 27.000
+VynixusGuiLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine"))()
+end)
+
+VynixusTittle.Name = "VynixusTittle"
+VynixusTittle.Parent = VynixusGuiLoad
+VynixusTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixusTittle.BackgroundTransparency = 1.000
+VynixusTittle.BorderSizePixel = 0
+VynixusTittle.Position = UDim2.new(1.09500003, 0, 0, 0)
+VynixusTittle.Size = UDim2.new(0, 165, 0, 50)
+VynixusTittle.Font = Enum.Font.SourceSans
+VynixusTittle.Text = "Ragdoll Engine GUI z anti ragdoll i inne!"
+VynixusTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+VynixusTittle.TextScaled = true
+VynixusTittle.TextSize = 14.000
+VynixusTittle.TextWrapped = true
+
+DaHoodGuiLoad.Name = "DaHoodGuiLoad"
+DaHoodGuiLoad.Parent = ScrollFrame
+DaHoodGuiLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodGuiLoad.BackgroundTransparency = 0.800
+DaHoodGuiLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+DaHoodGuiLoad.BorderSizePixel = 3
+DaHoodGuiLoad.Position = UDim2.new(0.0494541191, 0, 0.327439606, 0)
+DaHoodGuiLoad.Size = UDim2.new(0, 200, 0, 50)
+DaHoodGuiLoad.Font = Enum.Font.SourceSans
+DaHoodGuiLoad.Text = "Da Hood Gui"
+DaHoodGuiLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+DaHoodGuiLoad.TextSize = 28.000
+DaHoodGuiLoad.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+ZordionTittle.Name = "ZordionTittle"
+ZordionTittle.Parent = DaHoodGuiLoad
+ZordionTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ZordionTittle.BackgroundTransparency = 1.000
+ZordionTittle.BorderSizePixel = 0
+ZordionTittle.Position = UDim2.new(1.09500003, 0, 0, 0)
+ZordionTittle.Size = UDim2.new(0, 165, 0, 50)
+ZordionTittle.Font = Enum.Font.SourceSans
+ZordionTittle.Text = "Popularne Gui do Da hood"
+ZordionTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+ZordionTittle.TextScaled = true
+ZordionTittle.TextSize = 14.000
+ZordionTittle.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = ScrollFrame
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BackgroundTransparency = 0.800
+Credits.BorderColor3 = Color3.fromRGB(0, 43, 186)
+Credits.BorderSizePixel = 3
+Credits.Position = UDim2.new(0.0442074947, 0, 0.910832524, 0)
+Credits.Size = UDim2.new(0, 453, 0, 50)
+Credits.Font = Enum.Font.SpecialElite
+Credits.Text = "CREDITS: Rihi#3276  Instagram: greenowka"
+Credits.TextColor3 = Color3.fromRGB(186, 186, 186)
+Credits.TextSize = 14.000
+
+MoreScriptsSoonTittle.Name = "MoreScriptsSoonTittle"
+MoreScriptsSoonTittle.Parent = Credits
+MoreScriptsSoonTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoreScriptsSoonTittle.BackgroundTransparency = 1.000
+MoreScriptsSoonTittle.BorderColor3 = Color3.fromRGB(24, 186, 0)
+MoreScriptsSoonTittle.BorderSizePixel = 3
+MoreScriptsSoonTittle.Position = UDim2.new(0, 0, -1.4000001, 0)
+MoreScriptsSoonTittle.Size = UDim2.new(0, 493, 0, 50)
+MoreScriptsSoonTittle.Font = Enum.Font.SpecialElite
+MoreScriptsSoonTittle.Text = "Wiecej gui w nastepnym updatcie..."
+MoreScriptsSoonTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+MoreScriptsSoonTittle.TextSize = 24.000
+
+CreditsTextTittle.Name = "CreditsTextTittle"
+CreditsTextTittle.Parent = Credits
+CreditsTextTittle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CreditsTextTittle.BackgroundTransparency = 0.800
+CreditsTextTittle.BorderColor3 = Color3.fromRGB(0, 43, 186)
+CreditsTextTittle.BorderSizePixel = 5
+CreditsTextTittle.Position = UDim2.new(0.0196884423, 0, -2.70000005, 0)
+CreditsTextTittle.Size = UDim2.new(0, 444, 0, 50)
+CreditsTextTittle.Font = Enum.Font.SourceSans
+CreditsTextTittle.Text = "Zrobione dla Laury przez Pawełka<3"
+CreditsTextTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+CreditsTextTittle.TextSize = 25.000
+
+infiniteyieldLoad.Name = "infiniteyieldLoad"
+infiniteyieldLoad.Parent = ScrollFrame
+infiniteyieldLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyieldLoad.BackgroundTransparency = 0.800
+infiniteyieldLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+infiniteyieldLoad.BorderSizePixel = 3
+infiniteyieldLoad.Position = UDim2.new(0.0494541191, 0, 0.413663417, 0)
+infiniteyieldLoad.Size = UDim2.new(0, 200, 0, 50)
+infiniteyieldLoad.Font = Enum.Font.SourceSans
+infiniteyieldLoad.Text = "Infinite Yield"
+infiniteyieldLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+infiniteyieldLoad.TextSize = 27.000
+infiniteyieldLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+iyTittle.Name = "iyTittle"
+iyTittle.Parent = infiniteyieldLoad
+iyTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+iyTittle.BackgroundTransparency = 1.000
+iyTittle.Position = UDim2.new(1.10500002, 0, 0, 0)
+iyTittle.Size = UDim2.new(0, 165, 0, 50)
+iyTittle.Font = Enum.Font.SourceSans
+iyTittle.Text = "FE Adminn! Prefix = ;"
+iyTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+iyTittle.TextScaled = true
+iyTittle.TextSize = 20.000
+iyTittle.TextWrapped = true
+
+PushToolLoad.Name = "PushToolLoad"
+PushToolLoad.Parent = ScrollFrame
+PushToolLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PushToolLoad.BackgroundTransparency = 0.800
+PushToolLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+PushToolLoad.BorderSizePixel = 3
+PushToolLoad.Position = UDim2.new(0.0477064215, 0, 0.50333333, 0)
+PushToolLoad.Size = UDim2.new(0, 200, 0, 50)
+PushToolLoad.Font = Enum.Font.SourceSans
+PushToolLoad.Text = "Push Tool"
+PushToolLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+PushToolLoad.TextSize = 26.000
+PushToolLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/WP5LB9mr'))()
+end)
+
+PushToolTittle.Name = "PushToolTittle"
+PushToolTittle.Parent = PushToolLoad
+PushToolTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PushToolTittle.BackgroundTransparency = 1.000
+PushToolTittle.BorderSizePixel = 0
+PushToolTittle.Position = UDim2.new(1.09500003, 0, 0, 0)
+PushToolTittle.Size = UDim2.new(0, 165, 0, 50)
+PushToolTittle.Font = Enum.Font.SourceSans
+PushToolTittle.Text = "Darmowy Push w ragdollu!"
+PushToolTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+PushToolTittle.TextScaled = true
+PushToolTittle.TextSize = 14.000
+PushToolTittle.TextWrapped = true
+
+AllSkinsLoad.Name = "AllSkinsLoad"
+AllSkinsLoad.Parent = ScrollFrame
+AllSkinsLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AllSkinsLoad.BackgroundTransparency = 0.800
+AllSkinsLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+AllSkinsLoad.BorderSizePixel = 3
+AllSkinsLoad.Position = UDim2.new(0.0495412871, 0, 0.587777734, 0)
+AllSkinsLoad.Size = UDim2.new(0, 200, 0, 50)
+AllSkinsLoad.Font = Enum.Font.SourceSans
+AllSkinsLoad.Text = "All Skins Counter Blox"
+AllSkinsLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+AllSkinsLoad.TextSize = 20.000
+AllSkinsLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Riheusz/AllSkinsLoadStrig/main/Skinchanger")) ()
+end)
+
+AllSkinsTittle.Name = "AllSkinsTittle"
+AllSkinsTittle.Parent = AllSkinsLoad
+AllSkinsTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AllSkinsTittle.BackgroundTransparency = 1.000
+AllSkinsTittle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AllSkinsTittle.BorderSizePixel = 0
+AllSkinsTittle.Position = UDim2.new(1.09500003, 0, 0, 0)
+AllSkinsTittle.Size = UDim2.new(0, 165, 0, 50)
+AllSkinsTittle.Font = Enum.Font.SourceSans
+AllSkinsTittle.Text = "Wszystkie skiny w Counter Blox!"
+AllSkinsTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+AllSkinsTittle.TextScaled = true
+AllSkinsTittle.TextSize = 18.000
+AllSkinsTittle.TextWrapped = true
+
+FeCarLoad.Name = "FeCarLoad"
+FeCarLoad.Parent = ScrollFrame
+FeCarLoad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FeCarLoad.BackgroundTransparency = 0.800
+FeCarLoad.BorderColor3 = Color3.fromRGB(0, 43, 186)
+FeCarLoad.BorderSizePixel = 3
+FeCarLoad.Position = UDim2.new(0.0495412871, 0, 0.667777777, 0)
+FeCarLoad.Size = UDim2.new(0, 200, 0, 50)
+FeCarLoad.Font = Enum.Font.SourceSans
+FeCarLoad.Text = "FE CAR Script"
+FeCarLoad.TextColor3 = Color3.fromRGB(186, 186, 186)
+FeCarLoad.TextSize = 24.000
+FeCarLoad.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
+
+FeCarTittle.Name = "FeCarTittle"
+FeCarTittle.Parent = FeCarLoad
+FeCarTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeCarTittle.BackgroundTransparency = 1.000
+FeCarTittle.BorderSizePixel = 0
+FeCarTittle.Position = UDim2.new(1.0999999, 0, 0, 0)
+FeCarTittle.Size = UDim2.new(0, 165, 0, 50)
+FeCarTittle.Font = Enum.Font.SourceSans
+FeCarTittle.Text = "Fe car brum (r6 needed)"
+FeCarTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+FeCarTittle.TextScaled = true
+FeCarTittle.TextSize = 14.000
+FeCarTittle.TextWrapped = true
+
+UIGradientMainScript.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 38, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradientMainScript.Name = "UIGradientMainScript"
+UIGradientMainScript.Parent = MainScript
+
+UICornerMainScript.Name = "UICornerMainScript"
+UICornerMainScript.Parent = MainScript
+
+MainHubLogo.Name = "MainHubLogo"
+MainHubLogo.Parent = MainHub
+MainHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainHubLogo.BackgroundTransparency = 1.000
+MainHubLogo.BorderSizePixel = 0
+MainHubLogo.Size = UDim2.new(0, 65, 0, 65)
+MainHubLogo.Image = "http://www.roblox.com/asset/?id=6553452924"
+
+MainHubTittle.Name = "MainHubTittle"
+MainHubTittle.Parent = MainHub
+MainHubTittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainHubTittle.BackgroundTransparency = 1.000
+MainHubTittle.Position = UDim2.new(-0.0547667332, 0, 0.130390942, 0)
+MainHubTittle.Size = UDim2.new(0, 546, 0, 47)
+MainHubTittle.Font = Enum.Font.SpecialElite
+MainHubTittle.Text = "SNAKE HUB"
+MainHubTittle.TextColor3 = Color3.fromRGB(186, 186, 186)
+MainHubTittle.TextSize = 14.000
+
+RainbowTittle.Name = "RainbowTittle"
+RainbowTittle.Parent = MainHubTittle
+RainbowTittle.BackgroundColor3 = Color3.fromRGB(255, 0, 209)
+RainbowTittle.BorderSizePixel = 0
+RainbowTittle.Position = UDim2.new(0.0494505502, 0, 1.12864149, 0)
+RainbowTittle.Size = UDim2.new(0, 497, 0, 2)
+RainbowTittle.Font = Enum.Font.SourceSans
+RainbowTittle.Text = ""
+RainbowTittle.TextColor3 = Color3.fromRGB(0, 0, 0)
+RainbowTittle.TextSize = 14.000
+
+UIGradientRainBow.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.19, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(0.33, Color3.fromRGB(59, 255, 0)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(6, 255, 235)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(17, 60, 255)), ColorSequenceKeypoint.new(0.69, Color3.fromRGB(226, 58, 255)), ColorSequenceKeypoint.new(0.82, Color3.fromRGB(255, 47, 127)), ColorSequenceKeypoint.new(0.95, Color3.fromRGB(255, 44, 47)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(255, 24, 27)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradientRainBow.Name = "UIGradientRainBow"
+UIGradientRainBow.Parent = RainbowTittle
+
+UICorner.Parent = MainHubTittle
+
+MainHubGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 38, 255)), ColorSequenceKeypoint.new(0.94, Color3.fromRGB(255, 226, 227)), ColorSequenceKeypoint.new(0.95, Color3.fromRGB(255, 251, 251)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+MainHubGradient.Name = "MainHubGradient"
+MainHubGradient.Parent = MainHub
+
+UICornerMainHub.Name = "UICornerMainHub"
+UICornerMainHub.Parent = MainHub
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = MainHub
+CloseButton.BackgroundColor3 = Color3.fromRGB(182, 59, 195)
+CloseButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CloseButton.BorderSizePixel = 0
+CloseButton.Position = UDim2.new(0.888073385, 0, -0.00282839267, 0)
+CloseButton.Size = UDim2.new(0, 62, 0, 62)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = ""
+CloseButton.TextColor3 = Color3.fromRGB(186, 186, 186)
+CloseButton.TextSize = 33.000
+
+UIGradientCloseButton.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradientCloseButton.Name = "UIGradientCloseButton"
+UIGradientCloseButton.Parent = CloseButton
+
+UiCornerClose.Name = "UiCornerClose"
+UiCornerClose.Parent = CloseButton
+
+CloseButtonText.Name = "CloseButtonText"
+CloseButtonText.Parent = CloseButton
+CloseButtonText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButtonText.BackgroundTransparency = 1.000
+CloseButtonText.Position = UDim2.new(0.0161290318, 0, 0.116515741, 0)
+CloseButtonText.Size = UDim2.new(0, 59, 0, 49)
+CloseButtonText.Font = Enum.Font.SourceSansBold
+CloseButtonText.Text = "X"
+CloseButtonText.TextColor3 = Color3.fromRGB(186, 186, 186)
+CloseButtonText.TextScaled = true
+CloseButtonText.TextSize = 14.000
+CloseButtonText.TextWrapped = true
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = SnakeHubNoKey
+OpenButton.BackgroundColor3 = Color3.fromRGB(0, 99, 96)
+OpenButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OpenButton.BorderSizePixel = 0
+OpenButton.Position = UDim2.new(0.0063191033, 0, 0.459006429, 0)
+OpenButton.Size = UDim2.new(0, 132, 0, 42)
+OpenButton.Font = Enum.Font.SourceSans
+OpenButton.Text = ""
+OpenButton.TextColor3 = Color3.fromRGB(186, 186, 186)
+OpenButton.TextSize = 33.000
+
+UIGradientOpenButton.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 38, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradientOpenButton.Name = "UIGradientOpenButton"
+UIGradientOpenButton.Parent = OpenButton
+
+UICornerOpenButton.Name = "UICornerOpenButton"
+UICornerOpenButton.Parent = OpenButton
+
+OpenButtonText.Name = "OpenButtonText"
+OpenButtonText.Parent = OpenButton
+OpenButtonText.BackgroundColor3 = Color3.fromRGB(0, 99, 96)
+OpenButtonText.BackgroundTransparency = 1.000
+OpenButtonText.Position = UDim2.new(-0.0986190885, 0, 0.014239125, 0)
+OpenButtonText.Size = UDim2.new(0, 157, 0, 40)
+OpenButtonText.Font = Enum.Font.SourceSansBold
+OpenButtonText.Text = "OPEN"
+OpenButtonText.TextColor3 = Color3.fromRGB(186, 186, 186)
+OpenButtonText.TextSize = 19.000
+OpenButtonText.TextWrapped = true
+
+-- Scripts:
+
+local function HPUI_fake_script() -- SnakeHubNoKey.DraggableLocalScript 
+	local script = Instance.new('LocalScript', SnakeHubNoKey)
+
+	--By DriedUpCat
+	
+	frame = script.Parent.MainHub
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(HPUI_fake_script)()
+local function RPFUR_fake_script() -- CloseButton.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton)
+
+	--Close Button:
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(RPFUR_fake_script)()
+local function KNMYS_fake_script() -- OpenButton.LocalScript 
+	local script = Instance.new('LocalScript', OpenButton)
+
+	--Open Button:
+	local frame = script.Parent.Parent.MainHub --Change "Frame" to your frame.
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+end
+coroutine.wrap(KNMYS_fake_script)()
